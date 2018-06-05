@@ -7,6 +7,19 @@
   <version>1.0</version>
   <name>simple_webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
+  <distributionManagement>
+    <repository>
+    <id>releases</id>
+    <url>http://34.204.40.132:8081/#browse/browse/components:maven-releases</url>
+    </repository>
+    <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://34.204.40.132:8081/#browse/browse/components:maven-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
